@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>semantaic html</title>
+    <style>
+        section, div, aside {
+            border: 2px solid black;
+            width: 50%;
+        }
+        
+        main{
+            display: flex;
+            gap: 5px;
+        }
+        #heroTitle{
+            background-color: aqua;
+        }
+        .SelectorArticle{
+            background-color: azure;
+        }
+        .student{
+            background-color:yellowgreen;
+        }
+        .conent{
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2 id="heroTitle" >Welcome To My Website</h2> <!-------Unique ID selector--------------->
+    </header>
+    <nav>
+        <ul>
+            
+            <li> <a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">REGISTER</a></li>
+            <li><a href="#">LOGIN</a></li>
+        </ul>
+    </nav>
+    <main>
+        
+        <aside>
+            <img src="data:image/jpeg;base64,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" alt="messi picture">
+        </aside>
+       <div>
+
+        <h2 article class="SelectorArticle" >sections</h2>
+        <section class="student" >Hero Section</section>
+        &nbsp;
+        <section class="conent"> About Section</section>
+        &nbsp;
+        <section> Contact Section</section>
+    </div>
+        <aside>Aside</aside>
+           
+    </main>
+    <footer>&copy; 2023 DLT Africa. All Rights Reserved.</footer>
+    
+</body>
+</html>
